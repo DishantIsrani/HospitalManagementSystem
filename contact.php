@@ -9,6 +9,7 @@ $dscrption=$_POST['description'];
 $query=mysqli_query($con,"insert into tblcontactus(fullname,email,contactno,message) value('$name','$email','$mobileno','$dscrption')");
 echo "<script>alert('Your information succesfully submitted');</script>";
 echo "<script>window.location.href ='contact.php'</script>";
+define("DB_HOST", "192.168.0.109");
 
 }
 
@@ -20,6 +21,11 @@ echo "<script>window.location.href ='contact.php'</script>";
 		<title>HMS | Contact us</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
 		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
 	</head>
 	<body>
 		<!--start-wrap-->
@@ -36,8 +42,6 @@ echo "<script>window.location.href ='contact.php'</script>";
 				<div class="top-nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-					
-						<li><a href="about.html">About Us</a></li>
 
 						<li><a href="resources.html">Resources</a></li>
 						
@@ -103,7 +107,6 @@ echo "<script>window.location.href ='contact.php'</script>";
 		   	<div class="footer-left">
 		   			<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="contact.php">contact</a></li>
 						<li><a href="resources.html">Resources</a></li>
 						<li><a href="contact.php">Contact Us</a></li>
 					</ul>
