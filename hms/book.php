@@ -21,8 +21,6 @@
     <body>
 <?php include('include/sidebar.php');?>
 <div class="app-content">
-<?php include('include/header.php');?>
-
 <div class="sidebar app-aside" id="sidebar">
 				<div class="sidebar-container perfect-scrollbar">
 
@@ -45,13 +43,6 @@
 </div>
 </div>
 <!-- start: FOOTER -->
-<?php include('include/footer.php');?>
-			<!-- end: FOOTER -->
-		
-			<!-- start: SETTINGS -->
-	<?php include('include/setting.php');?>
-			
-			<!-- end: SETTINGS -->
 
 </body>
 <script>
