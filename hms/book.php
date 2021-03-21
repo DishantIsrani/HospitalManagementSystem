@@ -21,6 +21,7 @@
     <body>
 <?php include('include/sidebar.php');?>
 <div class="app-content">
+<?php include('include/header.php');?>
 
 <div class="sidebar app-aside" id="sidebar">
 				<div class="sidebar-container perfect-scrollbar">
